@@ -1,0 +1,148 @@
+section#contact {
+  // background: url(_images/wheat.jpg) no-repeat center center fixed;
+  // background-size: cover;
+  background-color: #759601;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0px 0px 0px;
+  height: auto;
+  line-height: 1em;
+  h2 {
+  	line-height: 1em;
+    background-color: orange;
+    padding: 0.5em 2em;
+  }
+  div#contact-form {
+    display: flex;
+    width: 80%;
+    margin: 30px auto 180px auto;
+    background-color: rgba(255,255,255,0.8);
+    padding: 50px;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+    .left-side {
+      padding-right: 30px;
+      h2 {
+        font-size: 1.3em;
+        // background-color: #17145b;
+        background-color: transparent;
+        max-width: 350px;
+        color: #17145b;
+        border-bottom: 2px solid #313131;
+        padding: 10px 0px;
+        margin-bottom: 1.5em;
+      }
+    }
+    .left-side,
+    .right-side {
+      width: 50%;
+      text-align: left;
+      box-sizing: border-box;
+      p {
+        line-height: 1.6em;
+      }
+      label {
+        width: 100%;
+        display: block;
+      }
+      input#name,
+      input#email {
+        width: 96%;
+        max-width: 200px;
+        height: 1.5em;
+        margin-bottom: 10px;
+      }
+      textarea {
+        width: 96%;
+        max-width: 350px;
+        height: 140px;
+        resize: none;
+      }
+      input#send {
+        padding: 10px 20px;
+        background-color: rgba(0,0,255,1);
+        color: #fff;
+        border: 1px solid transparent;
+        transition: all .3s ease;
+        &:hover {
+          background-color: rgba(0,0,255,0.7); 
+          border: 1px solid blue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 790px) {
+  section#contact {
+    div#contact-form {
+      flex-direction: column;
+      height: auto;
+      padding: 50px 20px;
+      .left-side {
+        margin-bottom: 20px;
+        padding-right: 0px;
+      }
+      .left-side,
+      .right-side {
+        width: 96%;
+          textarea {
+          max-width: 450px;
+        }
+      } 
+    }
+  }
+}
+@media screen and (max-width: 490px) {
+  section#contact div#contact-form {
+    width: 96%;
+    border: none;
+    padding: 15px;
+  }
+}
+
+button#confirm {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 12px;
+  // border-radius: 8px;
+  border: 1px solid #950808;
+  background: #ba2222;
+  color: #fff;
+  cursor: default;
+  &:active, &:focus {
+    outline: 0;
+    outline-style: 0;
+  }
+
+}
+button.enable-submit {
+  display: none;
+}
+button#send {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #206311;
+  background: #2cb20c;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background: #278111;
+    color: #fff;
+  }
+  &:active, &:focus {
+    outline: 0;
+    outline-style: 0;
+  }
+}
+.display {
+  display: none;
+}
+span.success-msg {
+  color: red;
+}
