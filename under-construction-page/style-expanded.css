@@ -928,7 +928,7 @@ section#location .location p {
   }
 }
 section#contact {
-  background-color: #759601;
+  background-color: #e69e22;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -1277,6 +1277,7 @@ a.modal-close-btm {
 }
 a {
   background-color: #e87624;
+  background-color: #c44808;
   transition: all 0.3s ease;
 }
 a:hover {

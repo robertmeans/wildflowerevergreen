@@ -3,7 +3,7 @@
             function post_captcha($user_response) {
             $fields_string = '';
             $fields = array(
-                'secret' => '6LfN9SgUAAAAANt955AoO_nMkUsqyipvdt0__Q1G',
+                'secret' => '6LeqQEwUAAAAALwY--talh7LX02Mf8hQHr80x0vj',
                 'response' => $user_response
             );
             foreach($fields as $key=>$value)
@@ -41,8 +41,7 @@
         $captcha = $_POST['g-recaptcha-response'];
     }
 
-    // $my_email = "craig@ledererinc.com";
-    // $my_email = "craigandsuranne@gmail.com";
+    // $my_email = "colin@wildflowerevergreen.com";
     // for testing
     $my_email = "robert@robertmeans.com";
 
@@ -190,7 +189,7 @@
           <textarea required noresize name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>
-           <!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LfN9SgUAAAAAOX_A0_akc32rH9egF6oe4KEYx9Q"></div> -->
+           <!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LeqQEwUAAAAAJoHnTg0lGNwk1o3N5sVqEI9sWvl"></div> -->
         </li>
         <li>
             <button id="confirm" disabled>Check Captcha above to enable Send</button>

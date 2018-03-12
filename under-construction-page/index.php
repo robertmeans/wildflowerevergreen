@@ -16,8 +16,8 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	
-	<title>ABC Company - Your Town</title>
-	<!-- <link rel="icon" type="image/ico" href="_images/favicon.ico"> -->
+	<title>Wildflower Cafe - Evergreen, Colorado</title>
+	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
@@ -51,7 +51,7 @@
 		<li><a href="#location" class="main-nav">Location</a></li>
 	</ul>
 	<div class="phone large-gone">
-		<a class="phone-nav" tabIndex="-1" href="tel:(555)%20123-4567">(555) 123-4567</a>
+		<a class="phone-nav" tabIndex="-1" href="tel:(303)%20674-3323">(303) 674-3323</a>
 	</div>
 </nav>
 
@@ -59,12 +59,16 @@
 	<div class="uc">
 		<img src="_images/under-construction.png">
 		<div class="uc-dark">
-			<h2>ABC Company</h2>
-			<p>Come see us at our new location</p>
+			<h2>Wildflower Cafe</h2>
+			<p>Monday - Saturday 7:30 AM - 2:00 PM</p>
+			<p>Sunday 8:00 AM - 2:00 PM</p>
+			<p>Sushi Thursday 5:30 PM - 9:00 PM</p>
 			<p>&nbsp;</p>
-			<h3>Emphasize important message here!</h3>
-			<p>&nbsp;</p>
-			<p>Put a <a class="reg-link" href="http://www.evergreenwebdesign.com" target="_blank">link to somewhere</a> here if you want.</p>
+			<h3>New Website Coming Soon!</h3>
+			<p>- check us out on social media -</p>
+				<div class="social-links">
+					<a class="reset" href="https://www.facebook.com/thewildflowercafe/" target="_blank"><img src="_images/facebook.png" alt="Follow us on Facebook"></a><a class="reset" href="https://www.instagram.com/thewildflowerevergreen/" target="_blank"><img src="_images/instagram.png" alt="Follow us on Instagram"></a>
+				</div>
 		</div>
 	</div>
 </section><!-- #intro -->
@@ -73,11 +77,9 @@
 	<h2 data-aos="fade-in" data-aos-offset="425">Click for larger image</h2><br />
 <div class="menu-wrap cf">
 
-	<a class="reset" href="_images/menu-large-01.jpg" target="_blank"><img data-aos="fade-right" data-aos-offset="375" src="_images/menu-thumbnail-01.jpg" alt="Appetizers"></a>
+	<a class="reset" href="_images/menu-large-01.jpg" target="_blank"><img data-aos="fade-right" data-aos-offset="375" src="_images/menu-thumbnail-01.jpg" alt="Menu front"></a>
 
-	<a class="reset" href="_images/menu-large-02.jpg" target="_blank"><img data-aos="fade-up" data-aos-offset="375" src="_images/menu-thumbnail-02.jpg" alt="Drinks"></a>
-
-	<a class="reset" href="_images/menu-large-03.jpg" target="_blank"><img data-aos="fade-left" data-aos-offset="375" src="_images/menu-thumbnail-03.jpg" alt="Entreés"></a>
+	<a class="reset" href="_images/menu-large-02.jpg" target="_blank"><img data-aos="fade-left" data-aos-offset="375" src="_images/menu-thumbnail-02.jpg" alt="menu back"></a>
 
 </div><!-- .menu-wrap -->
 
@@ -89,8 +91,8 @@
 	<div id="map"></div>
 
 	<div class="location">
-		<p><span class="sm-gone"><i class="fa fa-map-marker"></i></span><a class="loc" tabIndex="-1" href="https://www.google.com/maps/place/Piazza+del+Colosseo,+1,+00184+Roma+RM,+Italy/@41.8901125,12.4919604,17z/data=!3m1!4b1!4m5!3m4!1s0x132f61b7724fa84d:0xf1ed82ddf9044463!8m2!3d41.8901125!4d12.4941491" target="_blank">Piazza del Colosseo, 1<span class="sm-gone">, </span><br class="lg-gone">00184 Roma RM, Italy</a></p>
-		<span class="sm-gone"><p><i class="fa fa-phone-square"></i><a class="loc" href="tel:(555)%20123-4567">555.123.4567</a></p></span>
+		<p><span class="sm-gone"><i class="fa fa-map-marker"></i></span><a class="loc" tabIndex="-1" href="https://www.google.com/maps/place/28035+CO-74,+Evergreen,+CO+80439/@39.6333601,-105.3204867,17z/data=!3m1!4b1!4m5!3m4!1s0x876b9e0b5213097d:0xc6607881b3128d21!8m2!3d39.6333601!4d-105.318298" target="_blank">28035 Highway 74<span class="sm-gone">, </span><br class="lg-gone">Evergreen, CO 80439</a></p>
+		<span class="sm-gone"><p><i class="fa fa-phone-square"></i><a class="loc" href="tel:(303)%20674-3323">(303) 674-3323</a></p></span>
 	</div>
 
 </section><!-- #location -->
@@ -100,11 +102,10 @@
 	<div id="contact-form">
 		<div class="left-side">
 			<h2>Contact</h2>
-			<p>Piazza del Colosseo, 1</p>
-			<p>00184 Roma Rm, Italy</p>
+			<p>28035 Highway 74</p>
+			<p>Evergreen, CO 80439</p>
 			<p>&nbsp;</p>
-			<p>Phone: 555.123.4567</p>
-			<!-- <p>Fax: 303.973.9358</p> -->
+			<p>Phone: (303) 674-3323</p>
 		</div>
 		<div class="right-side">
 			<?php require('_includes/contact-form-processing.php'); ?>  
@@ -127,7 +128,7 @@
 		}
 	 ?>	
 	<div class="copyright cf">
-		<p><?= ewd_copyright(2015); ?> ABC Company | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
+		<p><?= ewd_copyright(2018); ?> Wildflower Cafe | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
 	</div>	
 
 </footer>
