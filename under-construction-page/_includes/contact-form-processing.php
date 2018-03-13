@@ -26,7 +26,7 @@
             // echo '<p style="color: red; padding: 10px; border: 1px solid red; background-color: white; float: left;"><b>Submission Unsuccessful</b><br />Please refresh and make sure you check the security CAPTCHA box.</p><br>';
             // All error checking is handled on the front end. No need for this.
         } else {
-            echo '<span class="success-msg">Your message was sent successfully!<br />We will see it soon and respond accordingly.</span>'; ?>
+            echo '<span class="success-msg">Your message was sent successfully!<br />We will see it soon.</span>'; ?>
             </div>
                 </div>
             </section><!-- #contact -->
@@ -41,9 +41,9 @@
         $captcha = $_POST['g-recaptcha-response'];
     }
 
-    // $my_email = "colin@wildflowerevergreen.com";
+    $my_email = "colin@wildflowerevergreen.com";
     // for testing
-    $my_email = "robert@robertmeans.com";
+    // $my_email = "robert@robertmeans.com";
 
     // to let visitor fill in the "from" field leave string below empty 
     $from_email = "";
@@ -164,7 +164,7 @@
 
         $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
         /* BCC if needed */
-        // $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
+        $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
 
         }
 
@@ -189,7 +189,7 @@
           <textarea required noresize name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>
-           <!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LeqQEwUAAAAAJoHnTg0lGNwk1o3N5sVqEI9sWvl"></div> -->
+           <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LeqQEwUAAAAAJoHnTg0lGNwk1o3N5sVqEI9sWvl"></div>
         </li>
         <li>
             <button id="confirm" disabled>Check Captcha above to enable Send</button>
