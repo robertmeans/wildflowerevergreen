@@ -302,6 +302,7 @@ nav div.phone {
   padding: 20px 0px;
 }
 #intro div.uc div.uc-dark {
+  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -315,6 +316,24 @@ nav div.phone {
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
+}
+#intro div.uc div.uc-dark a.scroll-down {
+  position: absolute;
+  width: 100%;
+  max-width: 160px;
+  top: -40px;
+  color: green;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.2);
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid green;
+  transition: all 0.3s ease;
+}
+#intro div.uc div.uc-dark a.scroll-down:hover {
+  border: 1px solid #fff;
+  background-color: green;
+  color: #fff;
 }
 #intro div.uc div.uc-dark h2 {
   color: #fff;
