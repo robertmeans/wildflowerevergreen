@@ -1,25 +1,25 @@
 // homepage gallery slideshow content container - background-color: 0.3 #000; border: 1px solid #fff
 .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta {
-	width: 800px !important;
-	}
+    width: 800px !important;
+    }
 .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-inside {
-	background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.25);
     padding: 50px 0px;
     border: 1px solid white;
 }
 // homepage gallery slideshow text and href border
 .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p {
-	color: #fff;
+    color: #fff;
 }
 body:not(.collection-type-gallery).banner-button-style-outline.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta-description p:last-child > a {
-  	color: #fff;
-	border: 2px solid #fff !important;
+    color: #fff;
+    border: 2px solid #fff !important;
 }
 // footer background image
 footer#footer {
-	background: url(http://www.evergreenwebdesign.com/off-site-files/wildflower-cafe/footer-psychedelic-flowers-02.jpg) no-repeat fixed;
-	background-size: cover;
-  	background-position: left top;
+    background: url(http://www.evergreenwebdesign.com/off-site-files/wildflower-cafe/footer-psychedelic-flowers-02.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: left top;
 }
 
 // back to top
@@ -33,7 +33,7 @@ footer#footer {
     /* 20 pixels from edge */
     position: fixed;
     right: 50%;
-  	margin-right: -25px;
+    margin-right: -25px;
     bottom: 20px;
     /* size of button is 50 pixels*/
     width: 50px;
@@ -92,13 +92,147 @@ a#yui_3_17_2_1_1526669845293_18646:hover {
 
 // footer link line height
 #block-yui_3_17_2_1_1526669845293_12265 {
-	line-height: 2.2em;
+    line-height: 2.2em;
 }
-
-// correct the cursors on food menus
 .menu-selector > label {
   cursor: pointer;
 }
 .menu-block .menu-style-classic .menu-selector, .menu-block .menu-style-classic .menu-header, .menu-block .menu-style-classic .menu-section-title, .menu-block .menu-style-classic .menu-section-description {
-  cursor: text;
+    cursor: text;
+}
+#content.main-content {
+    margin-top: -115px;
+}
+header#header {
+    // background-color: rgba(0,0,0,0.35);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.55);
+
+
+background: -moz-linear-gradient(top, rgba(153,153,153,0) 0%, rgba(0,0,0,0.39) 100%);
+background: -webkit-linear-gradient(top, rgba(153,153,153,0) 0%,rgba(0,0,0,0.39) 100%);
+background: linear-gradient(to bottom, rgba(153,153,153,0) 0%,rgba(0,0,0,0.39) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00999999', endColorstr='#63000000',GradientType=0 );
+
+
+// background: rgba(0,0,0,0.3) url(http://www.wildflowerevergreen.com/s/wildflower-nav-bkg.png) no-repeat top;
+}
+// homepage gallery slideshow content container - background-color: 0.3 #000; border: 1px solid #fff
+.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta {
+    width: 800px !important;
+    }
+.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-inside {
+    background-color: rgba(0,0,0,0.25);
+    padding: 50px 0px;
+    border: 1px solid white;
+}
+// homepage gallery slideshow text and href border
+.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p {
+    color: #fff;
+}
+body:not(.collection-type-gallery).banner-button-style-outline.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta-description p:last-child > a {
+    color: #fff;
+    border: 2px solid #fff !important;
+}
+// footer background image
+footer#footer {
+    background: url(http://www.evergreenwebdesign.com/off-site-files/wildflower-cafe/footer-psychedelic-flowers-02.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: left top;
+}
+
+// back to top
+/* Style the back-to-top floating button */
+.sf-back-to-top {
+    background-color: #50A1CB; /* button color */
+    color: white; /* text/arrow color */ 
+    display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 50%;
+    margin-right: -25px;
+    bottom: 20px;
+    /* size of button is 50 pixels*/
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.sf-back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 4px;    
+}
+
+a.sf-back-to-top .arrow:before {
+    content: "\e02d";
+    font-family: 'squarespace-ui-font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\e02d";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: -4px;
+}
+// footer EWD link
+#footer .html-block a {
+  border-bottom: none;
+}
+a#yui_3_17_2_1_1526669845293_18646 {
+  border-bottom: none;
+}
+a#yui_3_17_2_1_1526669845293_18646:hover {
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+// footer link line height
+#block-yui_3_17_2_1_1526669845293_12265 {
+    line-height: 2.2em;
+}
+.menu-selector > label {
+  cursor: pointer;
+}
+.menu-block .menu-style-classic .menu-selector, .menu-block .menu-style-classic .menu-header, .menu-block .menu-style-classic .menu-section-title, .menu-block .menu-style-classic .menu-section-description {
+    cursor: text;
+}
+#content.main-content {
+    margin-top: -115px;
+}
+header#header {
+    // background-color: rgba(0,0,0,0.35);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.55);
+
+
+background: -moz-linear-gradient(top, rgba(153,153,153,0) 0%, rgba(0,0,0,0.39) 100%);
+background: -webkit-linear-gradient(top, rgba(153,153,153,0) 0%,rgba(0,0,0,0.39) 100%);
+background: linear-gradient(to bottom, rgba(153,153,153,0) 0%,rgba(0,0,0,0.39) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00999999', endColorstr='#63000000',GradientType=0 );
+
+
+// background: rgba(0,0,0,0.3) url(http://www.wildflowerevergreen.com/s/wildflower-nav-bkg.png) no-repeat top;
 }
